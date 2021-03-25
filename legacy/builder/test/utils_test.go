@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arduino/arduino-cli/legacy/builder/utils"
+	"github.com/OS-Q/S04A/legacy/builder/utils"
 	"github.com/stretchr/testify/require"
 )
 

@@ -23,7 +23,7 @@ package debug
 
 import (
 	context "context"
-	commands "github.com/arduino/arduino-cli/rpc/commands"
+	commands "github.com/OS-Q/S04A/rpc/commands"
 	proto "github.com/golang/protobuf/proto"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"

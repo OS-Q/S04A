@@ -23,8 +23,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/arduino/arduino-cli/arduino/sketches"
-	rpc "github.com/arduino/arduino-cli/rpc/commands"
+	"github.com/OS-Q/S04A/arduino/sketches"
+	rpc "github.com/OS-Q/S04A/rpc/commands"
 	paths "github.com/arduino/go-paths-helper"
 )
 

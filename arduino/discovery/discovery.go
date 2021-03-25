@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arduino/arduino-cli/executils"
+	"github.com/OS-Q/S04A/executils"
 	"github.com/arduino/go-properties-orderedmap"
 	"github.com/pkg/errors"
 )

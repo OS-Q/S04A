@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arduino/arduino-cli/arduino/builder"
+	"github.com/OS-Q/S04A/arduino/builder"
 	"github.com/stretchr/testify/require"
 )
 

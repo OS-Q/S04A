@@ -16,9 +16,9 @@
 package builder
 
 import (
-	"github.com/arduino/arduino-cli/arduino/libraries"
-	"github.com/arduino/arduino-cli/legacy/builder/types"
-	"github.com/arduino/arduino-cli/legacy/builder/utils"
+	"github.com/OS-Q/S04A/arduino/libraries"
+	"github.com/OS-Q/S04A/legacy/builder/types"
+	"github.com/OS-Q/S04A/legacy/builder/utils"
 	"github.com/pkg/errors"
 )
 

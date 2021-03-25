@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/arduino/arduino-cli/legacy/builder/types"
+	"github.com/OS-Q/S04A/legacy/builder/types"
 )
 
 type DumpBuildProperties struct{}

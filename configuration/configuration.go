@@ -21,7 +21,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/arduino/arduino-cli/cli/feedback"
+	"github.com/OS-Q/S04A/cli/feedback"
 	paths "github.com/arduino/go-paths-helper"
 	"github.com/arduino/go-win32-utils"
 	"github.com/sirupsen/logrus"

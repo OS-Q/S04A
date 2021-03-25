@@ -23,9 +23,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/arduino/arduino-cli/arduino/libraries"
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesindex"
-	"github.com/arduino/arduino-cli/arduino/utils"
+	"github.com/OS-Q/S04A/arduino/libraries"
+	"github.com/OS-Q/S04A/arduino/libraries/librariesindex"
+	"github.com/OS-Q/S04A/arduino/utils"
 	paths "github.com/arduino/go-paths-helper"
 	"github.com/codeclysm/extract/v3"
 	"github.com/sirupsen/logrus"

@@ -28,9 +28,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arduino/arduino-cli/legacy/builder/constants"
-	"github.com/arduino/arduino-cli/legacy/builder/gohasissues"
-	"github.com/arduino/arduino-cli/legacy/builder/utils"
+	"github.com/OS-Q/S04A/legacy/builder/constants"
+	"github.com/OS-Q/S04A/legacy/builder/gohasissues"
+	"github.com/OS-Q/S04A/legacy/builder/utils"
 	"github.com/arduino/go-paths-helper"
 	"github.com/arduino/go-properties-orderedmap"
 	"github.com/pkg/errors"

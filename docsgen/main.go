@@ -19,8 +19,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/arduino/arduino-cli/cli"
-	"github.com/arduino/arduino-cli/configuration"
+	"github.com/OS-Q/S04A/cli"
+	"github.com/OS-Q/S04A/configuration"
 	"github.com/spf13/cobra/doc"
 )
 

@@ -23,7 +23,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/arduino/arduino-cli/arduino/discovery"
+	"github.com/OS-Q/S04A/arduino/discovery"
 	ui "github.com/gizak/termui/v3"
 	"github.com/gizak/termui/v3/widgets"
 )

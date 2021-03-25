@@ -18,8 +18,8 @@ package lib
 import (
 	"fmt"
 
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesmanager"
-	"github.com/arduino/arduino-cli/commands"
+	"github.com/OS-Q/S04A/arduino/libraries/librariesmanager"
+	"github.com/OS-Q/S04A/commands"
 )
 
 // LibraryUpgradeAll upgrades all the available libraries

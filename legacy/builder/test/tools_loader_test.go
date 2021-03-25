@@ -19,9 +19,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/arduino/arduino-cli/arduino/cores"
-	"github.com/arduino/arduino-cli/legacy/builder"
-	"github.com/arduino/arduino-cli/legacy/builder/types"
+	"github.com/OS-Q/S04A/arduino/cores"
+	"github.com/OS-Q/S04A/legacy/builder"
+	"github.com/OS-Q/S04A/legacy/builder/types"
 	paths "github.com/arduino/go-paths-helper"
 	"github.com/stretchr/testify/require"
 )

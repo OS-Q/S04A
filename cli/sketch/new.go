@@ -21,8 +21,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/arduino/arduino-cli/cli/errorcodes"
-	"github.com/arduino/arduino-cli/cli/feedback"
+	"github.com/OS-Q/S04A/cli/errorcodes"
+	"github.com/OS-Q/S04A/cli/feedback"
 	"github.com/spf13/cobra"
 )
 

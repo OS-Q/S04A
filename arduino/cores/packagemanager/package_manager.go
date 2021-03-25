@@ -22,8 +22,8 @@ import (
 	"path"
 	"strings"
 
-	"github.com/arduino/arduino-cli/arduino/cores"
-	"github.com/arduino/arduino-cli/arduino/cores/packageindex"
+	"github.com/OS-Q/S04A/arduino/cores"
+	"github.com/OS-Q/S04A/arduino/cores/packageindex"
 	paths "github.com/arduino/go-paths-helper"
 	properties "github.com/arduino/go-properties-orderedmap"
 	"github.com/sirupsen/logrus"

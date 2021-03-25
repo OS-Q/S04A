@@ -20,7 +20,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/arduino/arduino-cli/legacy/builder/types"
+	"github.com/OS-Q/S04A/legacy/builder/types"
 )
 
 func (p *CTagsParser) FixCLinkageTagsDeclarations(tags []*types.CTag) {

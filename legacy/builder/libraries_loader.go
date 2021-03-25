@@ -18,10 +18,10 @@ package builder
 import (
 	"os"
 
-	"github.com/arduino/arduino-cli/arduino/libraries"
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesmanager"
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesresolver"
-	"github.com/arduino/arduino-cli/legacy/builder/types"
+	"github.com/OS-Q/S04A/arduino/libraries"
+	"github.com/OS-Q/S04A/arduino/libraries/librariesmanager"
+	"github.com/OS-Q/S04A/arduino/libraries/librariesresolver"
+	"github.com/OS-Q/S04A/legacy/builder/types"
 	"github.com/pkg/errors"
 )
 

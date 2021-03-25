@@ -25,11 +25,11 @@ import (
 
 	properties "github.com/arduino/go-properties-orderedmap"
 
-	"github.com/arduino/arduino-cli/legacy/builder/builder_utils"
-	"github.com/arduino/arduino-cli/legacy/builder/constants"
-	"github.com/arduino/arduino-cli/legacy/builder/i18n"
-	"github.com/arduino/arduino-cli/legacy/builder/types"
-	"github.com/arduino/arduino-cli/legacy/builder/utils"
+	"github.com/OS-Q/S04A/legacy/builder/builder_utils"
+	"github.com/OS-Q/S04A/legacy/builder/constants"
+	"github.com/OS-Q/S04A/legacy/builder/i18n"
+	"github.com/OS-Q/S04A/legacy/builder/types"
+	"github.com/OS-Q/S04A/legacy/builder/utils"
 )
 
 var VALID_EXPORT_EXTENSIONS = map[string]bool{".h": true, ".c": true, ".hpp": true, ".hh": true, ".cpp": true, ".S": true, ".a": true, ".properties": true}

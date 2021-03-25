@@ -19,7 +19,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	rpc "github.com/arduino/arduino-cli/rpc/commands"
+	rpc "github.com/OS-Q/S04A/rpc/commands"
 )
 
 // LibraryLayout represents how the library source code is laid out in the library

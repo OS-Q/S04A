@@ -18,8 +18,8 @@ package output
 import (
 	"fmt"
 
-	"github.com/arduino/arduino-cli/commands"
-	rpc "github.com/arduino/arduino-cli/rpc/commands"
+	"github.com/OS-Q/S04A/commands"
+	rpc "github.com/OS-Q/S04A/rpc/commands"
 	"github.com/cmaglie/pb"
 )
 

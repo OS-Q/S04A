@@ -18,7 +18,7 @@ package ctags
 import (
 	"strings"
 
-	"github.com/arduino/arduino-cli/legacy/builder/types"
+	"github.com/OS-Q/S04A/legacy/builder/types"
 )
 
 func (p *CTagsParser) GeneratePrototypes() ([]*types.Prototype, int) {

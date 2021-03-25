@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/arduino/arduino-cli/arduino/cores"
-	"github.com/arduino/arduino-cli/arduino/libraries"
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesindex"
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesmanager"
-	"github.com/arduino/arduino-cli/commands"
-	rpc "github.com/arduino/arduino-cli/rpc/commands"
+	"github.com/OS-Q/S04A/arduino/cores"
+	"github.com/OS-Q/S04A/arduino/libraries"
+	"github.com/OS-Q/S04A/arduino/libraries/librariesindex"
+	"github.com/OS-Q/S04A/arduino/libraries/librariesmanager"
+	"github.com/OS-Q/S04A/commands"
+	rpc "github.com/OS-Q/S04A/rpc/commands"
 	"github.com/pkg/errors"
 )
 

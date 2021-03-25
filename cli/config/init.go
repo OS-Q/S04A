@@ -18,9 +18,9 @@ package config
 import (
 	"os"
 
-	"github.com/arduino/arduino-cli/cli/errorcodes"
-	"github.com/arduino/arduino-cli/cli/feedback"
-	"github.com/arduino/arduino-cli/configuration"
+	"github.com/OS-Q/S04A/cli/errorcodes"
+	"github.com/OS-Q/S04A/cli/feedback"
+	"github.com/OS-Q/S04A/configuration"
 	"github.com/arduino/go-paths-helper"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

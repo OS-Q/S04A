@@ -18,8 +18,8 @@ package config
 import (
 	"os"
 
-	"github.com/arduino/arduino-cli/cli/feedback"
-	"github.com/arduino/arduino-cli/configuration"
+	"github.com/OS-Q/S04A/cli/feedback"
+	"github.com/OS-Q/S04A/configuration"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v2"

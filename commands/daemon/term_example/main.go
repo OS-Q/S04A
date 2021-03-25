@@ -21,7 +21,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/arduino/arduino-cli/rpc/monitor"
+	"github.com/OS-Q/S04A/rpc/monitor"
 	"google.golang.org/grpc"
 	"google.golang.org/protobuf/types/known/structpb"
 )

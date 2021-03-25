@@ -18,11 +18,11 @@ package lib
 import (
 	"os"
 
-	"github.com/arduino/arduino-cli/cli/errorcodes"
-	"github.com/arduino/arduino-cli/cli/feedback"
-	"github.com/arduino/arduino-cli/cli/instance"
-	"github.com/arduino/arduino-cli/cli/output"
-	"github.com/arduino/arduino-cli/commands/lib"
+	"github.com/OS-Q/S04A/cli/errorcodes"
+	"github.com/OS-Q/S04A/cli/feedback"
+	"github.com/OS-Q/S04A/cli/instance"
+	"github.com/OS-Q/S04A/cli/output"
+	"github.com/OS-Q/S04A/commands/lib"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

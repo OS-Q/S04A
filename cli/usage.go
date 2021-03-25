@@ -16,7 +16,7 @@
 package cli
 
 import (
-	"github.com/arduino/arduino-cli/i18n"
+	"github.com/OS-Q/S04A/i18n"
 )
 
 // Declare ids used in usage

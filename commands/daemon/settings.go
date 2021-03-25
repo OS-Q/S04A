@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/arduino/arduino-cli/configuration"
-	rpc "github.com/arduino/arduino-cli/rpc/settings"
+	"github.com/OS-Q/S04A/configuration"
+	rpc "github.com/OS-Q/S04A/rpc/settings"
 )
 
 // SettingsService implements the `Settings` service

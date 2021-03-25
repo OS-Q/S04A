@@ -18,9 +18,9 @@ package test
 import (
 	"testing"
 
-	"github.com/arduino/arduino-cli/arduino/cores"
-	"github.com/arduino/arduino-cli/legacy/builder"
-	"github.com/arduino/arduino-cli/legacy/builder/types"
+	"github.com/OS-Q/S04A/arduino/cores"
+	"github.com/OS-Q/S04A/legacy/builder"
+	"github.com/OS-Q/S04A/legacy/builder/types"
 	properties "github.com/arduino/go-properties-orderedmap"
 	"github.com/stretchr/testify/require"
 )

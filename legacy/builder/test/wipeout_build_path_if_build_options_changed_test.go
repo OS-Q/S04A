@@ -18,9 +18,9 @@ package test
 import (
 	"testing"
 
-	"github.com/arduino/arduino-cli/legacy/builder"
-	"github.com/arduino/arduino-cli/legacy/builder/gohasissues"
-	"github.com/arduino/arduino-cli/legacy/builder/types"
+	"github.com/OS-Q/S04A/legacy/builder"
+	"github.com/OS-Q/S04A/legacy/builder/gohasissues"
+	"github.com/OS-Q/S04A/legacy/builder/types"
 	"github.com/stretchr/testify/require"
 )
 

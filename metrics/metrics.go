@@ -21,8 +21,8 @@ import (
 	"encoding/hex"
 	"net/http"
 
-	"github.com/arduino/arduino-cli/configuration"
-	"github.com/arduino/arduino-cli/inventory"
+	"github.com/OS-Q/S04A/configuration"
+	"github.com/OS-Q/S04A/inventory"
 	"github.com/segmentio/stats/v4"
 	"github.com/segmentio/stats/v4/prometheus"
 	"github.com/sirupsen/logrus"

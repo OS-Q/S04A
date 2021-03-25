@@ -18,8 +18,8 @@ package builder
 import (
 	"time"
 
-	"github.com/arduino/arduino-cli/legacy/builder/constants"
-	"github.com/arduino/arduino-cli/legacy/builder/types"
+	"github.com/OS-Q/S04A/legacy/builder/constants"
+	"github.com/OS-Q/S04A/legacy/builder/types"
 )
 
 type PrintUsedLibrariesIfVerbose struct{}

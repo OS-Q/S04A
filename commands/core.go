@@ -16,8 +16,8 @@
 package commands
 
 import (
-	"github.com/arduino/arduino-cli/arduino/cores"
-	rpc "github.com/arduino/arduino-cli/rpc/commands"
+	"github.com/OS-Q/S04A/arduino/cores"
+	rpc "github.com/OS-Q/S04A/rpc/commands"
 )
 
 // PlatformReleaseToRPC converts our internal structure to the RPC structure.

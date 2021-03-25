@@ -18,7 +18,7 @@ package packagemanager
 import (
 	"fmt"
 
-	"github.com/arduino/arduino-cli/arduino/cores"
+	"github.com/OS-Q/S04A/arduino/cores"
 	"go.bug.st/downloader/v2"
 	semver "go.bug.st/relaxed-semver"
 )

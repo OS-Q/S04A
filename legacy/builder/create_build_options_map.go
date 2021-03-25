@@ -18,7 +18,7 @@ package builder
 import (
 	"encoding/json"
 
-	"github.com/arduino/arduino-cli/legacy/builder/types"
+	"github.com/OS-Q/S04A/legacy/builder/types"
 	"github.com/pkg/errors"
 )
 

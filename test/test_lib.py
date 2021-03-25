@@ -193,7 +193,7 @@ def test_install(run_command):
     assert run_command("lib install {}".format(" ".join(libs)))
 
     # Test failing-install of library with wrong dependency
-    # (https://github.com/arduino/arduino-cli/issues/534)
+    # (https://github.com/OS-Q/S04A/issues/534)
     res = run_command("lib install MD_Parola@3.2.0")
     assert res.failed
     assert "Error resolving dependencies for MD_Parola@3.2.0: dependency 'MD_MAX72xx' is not available" in res.stderr

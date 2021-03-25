@@ -20,11 +20,11 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesindex"
-	"github.com/arduino/arduino-cli/arduino/libraries/librariesmanager"
-	"github.com/arduino/arduino-cli/arduino/utils"
-	"github.com/arduino/arduino-cli/commands"
-	rpc "github.com/arduino/arduino-cli/rpc/commands"
+	"github.com/OS-Q/S04A/arduino/libraries/librariesindex"
+	"github.com/OS-Q/S04A/arduino/libraries/librariesmanager"
+	"github.com/OS-Q/S04A/arduino/utils"
+	"github.com/OS-Q/S04A/commands"
+	rpc "github.com/OS-Q/S04A/rpc/commands"
 	semver "go.bug.st/relaxed-semver"
 )
 

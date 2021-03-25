@@ -19,8 +19,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/arduino/arduino-cli/arduino/libraries"
-	"github.com/arduino/arduino-cli/arduino/sketch"
+	"github.com/OS-Q/S04A/arduino/libraries"
+	"github.com/OS-Q/S04A/arduino/sketch"
 	paths "github.com/arduino/go-paths-helper"
 )
 

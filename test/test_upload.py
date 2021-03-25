@@ -282,7 +282,7 @@ def test_upload_sketch_with_pde_extension(run_command, data_dir, detected_boards
 
 def test_upload_with_input_dir_containing_multiple_binaries(run_command, data_dir, detected_boards, wait_for_board):
     # This tests verifies the behaviour outlined in this issue:
-    # https://github.com/arduino/arduino-cli/issues/765#issuecomment-699678646
+    # https://github.com/OS-Q/S04A/issues/765#issuecomment-699678646
     assert run_command("update")
 
     # Create a two different sketches

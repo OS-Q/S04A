@@ -23,10 +23,10 @@ import (
 
 	"github.com/arduino/go-paths-helper"
 
-	"github.com/arduino/arduino-cli/legacy/builder"
-	"github.com/arduino/arduino-cli/legacy/builder/constants"
-	"github.com/arduino/arduino-cli/legacy/builder/phases"
-	"github.com/arduino/arduino-cli/legacy/builder/types"
+	"github.com/OS-Q/S04A/legacy/builder"
+	"github.com/OS-Q/S04A/legacy/builder/constants"
+	"github.com/OS-Q/S04A/legacy/builder/phases"
+	"github.com/OS-Q/S04A/legacy/builder/types"
 	"github.com/stretchr/testify/require"
 )
 

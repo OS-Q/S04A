@@ -215,7 +215,7 @@ def test_core_install_esp32(run_command, data_dir):
     sketch_path = os.path.join(data_dir, sketch_name)
     assert run_command(f"sketch new {sketch_path}")
     assert run_command(f"compile -b esp32:esp32:esp32 {sketch_path}")
-    # prevent regressions for https://github.com/arduino/arduino-cli/issues/163
+    # prevent regressions for https://github.com/OS-Q/S04A/issues/163
     sketch_path_md5 = hashlib.md5(sketch_path.encode()).hexdigest().upper()
     build_dir = Path(tempfile.gettempdir(), f"arduino-sketch-{sketch_path_md5}")
     assert (build_dir / f"{sketch_name}.ino.partitions.bin").exists()

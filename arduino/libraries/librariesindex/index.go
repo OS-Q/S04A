@@ -18,9 +18,9 @@ package librariesindex
 import (
 	"sort"
 
-	"github.com/arduino/arduino-cli/arduino/libraries"
-	"github.com/arduino/arduino-cli/arduino/resources"
-	rpc "github.com/arduino/arduino-cli/rpc/commands"
+	"github.com/OS-Q/S04A/arduino/libraries"
+	"github.com/OS-Q/S04A/arduino/resources"
+	rpc "github.com/OS-Q/S04A/rpc/commands"
 	semver "go.bug.st/relaxed-semver"
 )
 

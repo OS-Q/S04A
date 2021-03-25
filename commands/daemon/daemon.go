@@ -21,15 +21,15 @@ import (
 	"context"
 	"io"
 
-	"github.com/arduino/arduino-cli/arduino/utils"
-	"github.com/arduino/arduino-cli/commands"
-	"github.com/arduino/arduino-cli/commands/board"
-	"github.com/arduino/arduino-cli/commands/compile"
-	"github.com/arduino/arduino-cli/commands/core"
-	"github.com/arduino/arduino-cli/commands/lib"
-	"github.com/arduino/arduino-cli/commands/sketch"
-	"github.com/arduino/arduino-cli/commands/upload"
-	rpc "github.com/arduino/arduino-cli/rpc/commands"
+	"github.com/OS-Q/S04A/arduino/utils"
+	"github.com/OS-Q/S04A/commands"
+	"github.com/OS-Q/S04A/commands/board"
+	"github.com/OS-Q/S04A/commands/compile"
+	"github.com/OS-Q/S04A/commands/core"
+	"github.com/OS-Q/S04A/commands/lib"
+	"github.com/OS-Q/S04A/commands/sketch"
+	"github.com/OS-Q/S04A/commands/upload"
+	rpc "github.com/OS-Q/S04A/rpc/commands"
 )
 
 // ArduinoCoreServerImpl FIXMEDOC

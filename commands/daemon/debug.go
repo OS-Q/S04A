@@ -19,10 +19,10 @@ import (
 	"context"
 	"os"
 
-	"github.com/arduino/arduino-cli/arduino/utils"
-	cmd "github.com/arduino/arduino-cli/commands/debug"
-	"github.com/arduino/arduino-cli/rpc/debug"
-	dbg "github.com/arduino/arduino-cli/rpc/debug"
+	"github.com/OS-Q/S04A/arduino/utils"
+	cmd "github.com/OS-Q/S04A/commands/debug"
+	"github.com/OS-Q/S04A/rpc/debug"
+	dbg "github.com/OS-Q/S04A/rpc/debug"
 	"github.com/pkg/errors"
 )
 

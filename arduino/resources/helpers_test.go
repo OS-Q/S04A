@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/arduino/arduino-cli/httpclient"
+	"github.com/OS-Q/S04A/httpclient"
 	"github.com/arduino/go-paths-helper"
 	"github.com/stretchr/testify/require"
 	"go.bug.st/downloader/v2"

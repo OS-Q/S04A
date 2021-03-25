@@ -18,8 +18,8 @@ package version
 import (
 	"os"
 
-	"github.com/arduino/arduino-cli/cli/feedback"
-	"github.com/arduino/arduino-cli/cli/globals"
+	"github.com/OS-Q/S04A/cli/feedback"
+	"github.com/OS-Q/S04A/cli/globals"
 	"github.com/spf13/cobra"
 )
 

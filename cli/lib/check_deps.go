@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/arduino/arduino-cli/cli/errorcodes"
-	"github.com/arduino/arduino-cli/cli/feedback"
-	"github.com/arduino/arduino-cli/cli/instance"
-	"github.com/arduino/arduino-cli/commands/lib"
-	rpc "github.com/arduino/arduino-cli/rpc/commands"
+	"github.com/OS-Q/S04A/cli/errorcodes"
+	"github.com/OS-Q/S04A/cli/feedback"
+	"github.com/OS-Q/S04A/cli/instance"
+	"github.com/OS-Q/S04A/commands/lib"
+	rpc "github.com/OS-Q/S04A/rpc/commands"
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
 )
