@@ -29,6 +29,3 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           version: 3.x
-
-      - name: Verify formatting of all files
-        run: task docs:check config:check
