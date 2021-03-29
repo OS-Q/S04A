@@ -4,7 +4,7 @@ site_description: Arduino Command Line Interface
 site_url: https://arduino.github.io/arduino-cli/
 
 # Repository
-repo_name: arduino/arduino-cli
+repo_name: OS-Q/S04A
 repo_url: https://github.com/OS-Q/S04A
 edit_uri: ""
 

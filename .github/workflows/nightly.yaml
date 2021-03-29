@@ -7,9 +7,9 @@ on:
 
 jobs:
   create-nightly-artifacts:
-    # This workflow is only of value to the arduino/arduino-cli repository and
+    # This workflow is only of value to the OS-Q/S04A repository and
     # would always fail in forks
-    if: github.repository == 'arduino/arduino-cli'
+    if: github.repository == 'OS-Q/S04A'
     runs-on: ubuntu-latest
 
     steps:
