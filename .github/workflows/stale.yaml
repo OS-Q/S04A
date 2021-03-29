@@ -1,11 +1,22 @@
 name: stale-bot
 
+# on:
+#   schedule:
+#     # run every day at midnight
+#     - cron: "0 0 * * *"
+#   issue_comment:
+#     types: ["created"]
 on:
-  schedule:
-    # run every day at midnight
-    - cron: "0 0 * * *"
-  issue_comment:
-    types: ["created"]
+  push:
+    branches:
+      - master
+      - github_actions
+    tags:
+      - '*'
+  pull_request:
+    branches:
+      - master
+      - github_actions
 
 env:
   # Name of the label that makes issues subject to the stale bot.

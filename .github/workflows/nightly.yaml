@@ -1,9 +1,20 @@
 name: nightly
 
+# on:
+#   schedule:
+#     # run every day at 1AM
+#     - cron: "0 1 * * *"
 on:
-  schedule:
-    # run every day at 1AM
-    - cron: "0 1 * * *"
+  push:
+    branches:
+      - master
+      - github_actions
+    tags:
+      - '*'
+  pull_request:
+    branches:
+      - master
+      - github_actions
 
 jobs:
   create-nightly-artifacts:
