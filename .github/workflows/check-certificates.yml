@@ -16,7 +16,7 @@ env:
 jobs:
   check-certificates:
     # This workflow would fail in forks that don't have the certificate secrets defined
-    if: github.repository == 'arduino/arduino-cli'
+    if:  github.repository == 'OS-Q/S04A'
     runs-on: ubuntu-latest
 
     strategy:
