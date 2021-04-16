@@ -18,9 +18,9 @@ package commands
 import (
 	"fmt"
 
-	"github.com/OS-Q/S04A/arduino/cores"
-	"github.com/OS-Q/S04A/arduino/cores/packagemanager"
-	rpc "github.com/OS-Q/S04A/rpc/commands"
+	"github.com/arduino/arduino-cli/arduino/cores"
+	"github.com/arduino/arduino-cli/arduino/cores/packagemanager"
+	rpc "github.com/arduino/arduino-cli/rpc/commands"
 )
 
 // DownloadToolRelease downloads a ToolRelease

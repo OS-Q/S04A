@@ -22,8 +22,8 @@ import (
 
 	"github.com/arduino/go-paths-helper"
 
-	"github.com/OS-Q/S04A/legacy/builder/types"
-	"github.com/OS-Q/S04A/legacy/builder/utils"
+	"github.com/arduino/arduino-cli/legacy/builder/types"
+	"github.com/arduino/arduino-cli/legacy/builder/utils"
 )
 
 type FilterSketchSource struct {

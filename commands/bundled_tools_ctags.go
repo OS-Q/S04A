@@ -16,9 +16,9 @@
 package commands
 
 import (
-	"github.com/OS-Q/S04A/arduino/cores"
-	"github.com/OS-Q/S04A/arduino/cores/packagemanager"
-	"github.com/OS-Q/S04A/arduino/resources"
+	"github.com/arduino/arduino-cli/arduino/cores"
+	"github.com/arduino/arduino-cli/arduino/cores/packagemanager"
+	"github.com/arduino/arduino-cli/arduino/resources"
 	semver "go.bug.st/relaxed-semver"
 )
 

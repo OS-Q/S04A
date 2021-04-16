@@ -54,6 +54,23 @@ tasks:
     cmds:
       - mkdocs serve
 
+  docs:check:
+    desc: Run documentation linting
+    cmds:
+      - npx {{ .PRETTIER }} --check "**/*.md"
+
+  docs:check-links:
+    desc: Verifies there are no dead links in documentation
+    cmds:
+      - |
+        npx -p markdown-link-check -c '
+        STATUS=0
+        for file in $(find docs -name "*.md") README.md test/README.md client_example/README.md; do
+          markdown-link-check -c markdown-link-check-config.json -q "$file"
+          STATUS=$(( $STATUS + $? ))
+        done
+        exit $STATUS'
+
   docs:format:
     desc: Automatically formats documentation
     cmds:
@@ -115,6 +132,7 @@ tasks:
       - "'{{.GOLINTBIN}}' {{.GOLINTFLAGS}} {{ default .DEFAULT_TARGETS .TARGETS }}"
       - task: i18n:check
       - task: python:check
+      - task: docs:check
       - task: config:check
 
   config:check:
@@ -199,9 +217,9 @@ vars:
   LDFLAGS: >
     -ldflags
     '
-    -X github.com/OS-Q/S04A/version.versionString={{.VERSION}}
-    -X github.com/OS-Q/S04A/version.commit={{ .COMMIT }}
-    -X github.com/OS-Q/S04A/version.date={{.TIMESTAMP}}
+    -X github.com/arduino/arduino-cli/version.versionString={{.VERSION}}
+    -X github.com/arduino/arduino-cli/version.commit={{ .COMMIT }}
+    -X github.com/arduino/arduino-cli/version.date={{.TIMESTAMP}}
     '
   # test vars
   GOFLAGS: "-timeout 10m -v -coverpkg=./... -covermode=atomic"
@@ -210,9 +228,9 @@ vars:
   TEST_LDFLAGS: >
     -ldflags
     '
-    -X github.com/OS-Q/S04A/version.versionString={{.TEST_VERSION}}
-    -X github.com/OS-Q/S04A/version.commit={{.TEST_COMMIT}}
-    -X github.com/OS-Q/S04A/version.date={{.TIMESTAMP}}
+    -X github.com/arduino/arduino-cli/version.versionString={{.TEST_VERSION}}
+    -X github.com/arduino/arduino-cli/version.commit={{.TEST_COMMIT}}
+    -X github.com/arduino/arduino-cli/version.date={{.TIMESTAMP}}
     '
   # check-lint vars
   GOLINTBIN:

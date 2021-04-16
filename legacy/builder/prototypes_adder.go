@@ -17,9 +17,9 @@ package builder
 
 import (
 	"fmt"
-	"github.com/OS-Q/S04A/legacy/builder/constants"
-	"github.com/OS-Q/S04A/legacy/builder/types"
-	"github.com/OS-Q/S04A/legacy/builder/utils"
+	"github.com/arduino/arduino-cli/legacy/builder/constants"
+	"github.com/arduino/arduino-cli/legacy/builder/types"
+	"github.com/arduino/arduino-cli/legacy/builder/utils"
 	"strconv"
 	"strings"
 )

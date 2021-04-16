@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/OS-Q/S04A/arduino/cores"
-	"github.com/OS-Q/S04A/arduino/cores/packageindex"
-	"github.com/OS-Q/S04A/executils"
+	"github.com/arduino/arduino-cli/arduino/cores"
+	"github.com/arduino/arduino-cli/arduino/cores/packageindex"
+	"github.com/arduino/arduino-cli/executils"
 	"github.com/pkg/errors"
 )
 

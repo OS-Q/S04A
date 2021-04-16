@@ -18,10 +18,10 @@ package main
 import (
 	"os"
 
-	"github.com/OS-Q/S04A/cli"
-	"github.com/OS-Q/S04A/cli/errorcodes"
-	"github.com/OS-Q/S04A/configuration"
-	"github.com/OS-Q/S04A/i18n"
+	"github.com/arduino/arduino-cli/cli"
+	"github.com/arduino/arduino-cli/cli/errorcodes"
+	"github.com/arduino/arduino-cli/configuration"
+	"github.com/arduino/arduino-cli/i18n"
 )
 
 func main() {

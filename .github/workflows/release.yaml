@@ -1,20 +1,9 @@
 name: release
 
-# on:
-#   push:
-#     tags:
-#       - "[0-9]+.[0-9]+.[0-9]+*"
 on:
   push:
-    branches:
-      - master
-      - github_actions
     tags:
-      - '*'
-  pull_request:
-    branches:
-      - master
-      - github_actions
+      - "[0-9]+.[0-9]+.[0-9]+*"
 
 jobs:
   create-release-artifacts:
@@ -99,6 +88,7 @@ jobs:
           TAG=${GITHUB_REF/refs\/tags\//}
           tar -czvf dist/arduino-cli_${TAG}_macOS_64bit.tar.gz \
           -C dist/arduino-cli_osx_darwin_amd64/  arduino-cli   \
+          -C ../../ LICENSE.txt
           CLI_CHECKSUM=$(shasum -a 256 dist/arduino-cli_${TAG}_macOS_64bit.tar.gz | cut -d " " -f 1)
           perl -pi -w -e "s/.*arduino-cli_${TAG}_macOS_64bit.tar.gz/${CLI_CHECKSUM}  arduino-cli_${TAG}_macOS_64bit.tar.gz/g;" dist/*-checksums.txt
 

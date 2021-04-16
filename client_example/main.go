@@ -28,9 +28,9 @@ import (
 	"strings"
 	"time"
 
-	rpc "github.com/OS-Q/S04A/rpc/commands"
-	dbg "github.com/OS-Q/S04A/rpc/debug"
-	"github.com/OS-Q/S04A/rpc/settings"
+	rpc "github.com/arduino/arduino-cli/rpc/commands"
+	dbg "github.com/arduino/arduino-cli/rpc/debug"
+	"github.com/arduino/arduino-cli/rpc/settings"
 	"google.golang.org/grpc"
 )
 

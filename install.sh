@@ -82,11 +82,11 @@ checkLatestVersion() {
 	# so we don't get rate-limited.
 	local tag
 	local regex="[0-9][A-Za-z0-9\.-]*"
-	local latest_url="https://github.com/OS-Q/S04A/releases/latest"
+	local latest_url="https://github.com/arduino/arduino-cli/releases/latest"
 	if [ "$DOWNLOAD_TOOL" = "curl" ]; then
-		tag=$(curl -SsL $latest_url | grep -o "<title>Release $regex · OS-Q/S04A" | grep -o "$regex")
+		tag=$(curl -SsL $latest_url | grep -o "<title>Release $regex · arduino/arduino-cli" | grep -o "$regex")
 	elif [ "$DOWNLOAD_TOOL" = "wget" ]; then
-		tag=$(wget -q -O - $latest_url | grep -o "<title>Release $regex · OS-Q/S04A" | grep -o "$regex")
+		tag=$(wget -q -O - $latest_url | grep -o "<title>Release $regex · arduino/arduino-cli" | grep -o "$regex")
 	fi
 	if [ "x$tag" = "x" ]; then
 		echo "Cannot determine latest tag."

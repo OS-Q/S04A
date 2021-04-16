@@ -19,7 +19,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/OS-Q/S04A/i18n/cmd/ast"
+	"github.com/arduino/arduino-cli/i18n/cmd/ast"
 	"github.com/spf13/cobra"
 )
 

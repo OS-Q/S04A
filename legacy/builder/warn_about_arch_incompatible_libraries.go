@@ -19,8 +19,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/OS-Q/S04A/legacy/builder/constants"
-	"github.com/OS-Q/S04A/legacy/builder/types"
+	"github.com/arduino/arduino-cli/legacy/builder/constants"
+	"github.com/arduino/arduino-cli/legacy/builder/types"
 )
 
 type WarnAboutArchIncompatibleLibraries struct{}

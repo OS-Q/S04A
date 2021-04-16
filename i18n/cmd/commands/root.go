@@ -16,8 +16,8 @@
 package commands
 
 import (
-	"github.com/OS-Q/S04A/i18n/cmd/commands/catalog"
-	"github.com/OS-Q/S04A/i18n/cmd/commands/transifex"
+	"github.com/arduino/arduino-cli/i18n/cmd/commands/catalog"
+	"github.com/arduino/arduino-cli/i18n/cmd/commands/transifex"
 	"github.com/spf13/cobra"
 )
 

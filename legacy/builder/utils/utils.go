@@ -29,8 +29,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/OS-Q/S04A/legacy/builder/gohasissues"
-	"github.com/OS-Q/S04A/legacy/builder/types"
+	"github.com/arduino/arduino-cli/legacy/builder/gohasissues"
+	"github.com/arduino/arduino-cli/legacy/builder/types"
 	paths "github.com/arduino/go-paths-helper"
 	"github.com/pkg/errors"
 	"golang.org/x/text/transform"

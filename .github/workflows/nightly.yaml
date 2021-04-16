@@ -1,26 +1,15 @@
 name: nightly
 
-# on:
-#   schedule:
-#     # run every day at 1AM
-#     - cron: "0 1 * * *"
 on:
-  push:
-    branches:
-      - master
-      - github_actions
-    tags:
-      - '*'
-  pull_request:
-    branches:
-      - master
-      - github_actions
+  schedule:
+    # run every day at 1AM
+    - cron: "0 1 * * *"
 
 jobs:
   create-nightly-artifacts:
-    # This workflow is only of value to the OS-Q/S04A repository and
+    # This workflow is only of value to the arduino/arduino-cli repository and
     # would always fail in forks
-    if: github.repository == 'OS-Q/S04A'
+    if: github.repository == 'arduino/arduino-cli'
     runs-on: ubuntu-latest
 
     steps:
@@ -96,6 +85,7 @@ jobs:
           PACKAGE_FILENAME="$(basename dist/arduino-cli_${{ github.workflow }}-*_macOS_64bit.tar.gz)"
           tar -czvf dist/$PACKAGE_FILENAME \
           -C dist/arduino-cli_osx_darwin_amd64/  arduino-cli   \
+          -C ../../ LICENSE.txt
           CLI_CHECKSUM=$(shasum -a 256 dist/$PACKAGE_FILENAME | cut -d " " -f 1)
           perl -pi -w -e "s/.*${PACKAGE_FILENAME}/${CLI_CHECKSUM}  ${PACKAGE_FILENAME}/g;" dist/*-checksums.txt
 

@@ -17,7 +17,7 @@ syntax = "proto3";
 
 package cc.arduino.cli.debug;
 
-option go_package = "github.com/OS-Q/S04A/rpc/debug";
+option go_package = "github.com/arduino/arduino-cli/rpc/debug";
 
 import "commands/common.proto";
 

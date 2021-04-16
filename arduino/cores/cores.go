@@ -20,7 +20,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/OS-Q/S04A/arduino/resources"
+	"github.com/arduino/arduino-cli/arduino/resources"
 	paths "github.com/arduino/go-paths-helper"
 	properties "github.com/arduino/go-properties-orderedmap"
 	semver "go.bug.st/relaxed-semver"

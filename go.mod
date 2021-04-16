@@ -1,4 +1,4 @@
-module github.com/OS-Q/S04A
+module github.com/arduino/arduino-cli
 
 go 1.14
 

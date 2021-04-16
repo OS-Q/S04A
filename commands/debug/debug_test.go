@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/OS-Q/S04A/arduino/cores/packagemanager"
-	rpc "github.com/OS-Q/S04A/rpc/commands"
-	dbg "github.com/OS-Q/S04A/rpc/debug"
+	"github.com/arduino/arduino-cli/arduino/cores/packagemanager"
+	rpc "github.com/arduino/arduino-cli/rpc/commands"
+	dbg "github.com/arduino/arduino-cli/rpc/debug"
 	"github.com/arduino/go-paths-helper"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

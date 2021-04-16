@@ -19,10 +19,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/OS-Q/S04A/arduino/cores"
-	"github.com/OS-Q/S04A/arduino/cores/packagemanager"
-	"github.com/OS-Q/S04A/commands"
-	rpc "github.com/OS-Q/S04A/rpc/commands"
+	"github.com/arduino/arduino-cli/arduino/cores"
+	"github.com/arduino/arduino-cli/arduino/cores/packagemanager"
+	"github.com/arduino/arduino-cli/commands"
+	rpc "github.com/arduino/arduino-cli/rpc/commands"
 	"github.com/pkg/errors"
 )
 

@@ -16,8 +16,8 @@
 package builder
 
 import (
-	"github.com/OS-Q/S04A/arduino/cores/packagemanager"
-	"github.com/OS-Q/S04A/legacy/builder/types"
+	"github.com/arduino/arduino-cli/arduino/cores/packagemanager"
+	"github.com/arduino/arduino-cli/legacy/builder/types"
 	"github.com/pkg/errors"
 )
 

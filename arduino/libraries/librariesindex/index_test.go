@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/OS-Q/S04A/arduino/libraries"
+	"github.com/arduino/arduino-cli/arduino/libraries"
 	"github.com/arduino/go-paths-helper"
 	"github.com/stretchr/testify/require"
 	semver "go.bug.st/relaxed-semver"

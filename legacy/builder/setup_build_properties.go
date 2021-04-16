@@ -22,8 +22,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/OS-Q/S04A/arduino/cores"
-	"github.com/OS-Q/S04A/legacy/builder/types"
+	"github.com/arduino/arduino-cli/arduino/cores"
+	"github.com/arduino/arduino-cli/legacy/builder/types"
 	properties "github.com/arduino/go-properties-orderedmap"
 	timeutils "github.com/arduino/go-timeutils"
 )

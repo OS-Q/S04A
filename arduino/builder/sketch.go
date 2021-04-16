@@ -23,10 +23,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/OS-Q/S04A/arduino/globals"
-	"github.com/OS-Q/S04A/arduino/sketch"
-	"github.com/OS-Q/S04A/cli/errorcodes"
-	"github.com/OS-Q/S04A/cli/feedback"
+	"github.com/arduino/arduino-cli/arduino/globals"
+	"github.com/arduino/arduino-cli/arduino/sketch"
+	"github.com/arduino/arduino-cli/cli/errorcodes"
+	"github.com/arduino/arduino-cli/cli/feedback"
 
 	"github.com/pkg/errors"
 )

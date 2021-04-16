@@ -20,7 +20,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/OS-Q/S04A/executils"
+	"github.com/arduino/arduino-cli/executils"
 	"github.com/stretchr/testify/require"
 )
 

@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/OS-Q/S04A/arduino/cores"
+	"github.com/arduino/arduino-cli/arduino/cores"
 	properties "github.com/arduino/go-properties-orderedmap"
 )
 
@@ -54,7 +54,7 @@ func (pm *PackageManager) IdentifyBoard(idProps *properties.Map) []*cores.Board 
 			if matched {
 				foundBoards = append(foundBoards, board)
 			}
-			if !present && id > 0 { // Always check id 0 and 1 (https://github.com/OS-Q/S04A/issues/456)
+			if !present && id > 0 { // Always check id 0 and 1 (https://github.com/arduino/arduino-cli/issues/456)
 				break
 			}
 			id++

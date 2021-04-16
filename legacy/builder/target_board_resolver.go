@@ -18,9 +18,9 @@ package builder
 import (
 	"strings"
 
-	"github.com/OS-Q/S04A/legacy/builder/constants"
-	"github.com/OS-Q/S04A/legacy/builder/i18n"
-	"github.com/OS-Q/S04A/legacy/builder/types"
+	"github.com/arduino/arduino-cli/legacy/builder/constants"
+	"github.com/arduino/arduino-cli/legacy/builder/i18n"
+	"github.com/arduino/arduino-cli/legacy/builder/types"
 )
 
 type TargetBoardResolver struct{}

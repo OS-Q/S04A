@@ -19,7 +19,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/OS-Q/S04A/version"
+	"github.com/arduino/arduino-cli/version"
 )
 
 var (

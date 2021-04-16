@@ -21,12 +21,12 @@ import (
 	"strconv"
 	"time"
 
-	bldr "github.com/OS-Q/S04A/arduino/builder"
-	"github.com/OS-Q/S04A/legacy/builder/builder_utils"
-	"github.com/OS-Q/S04A/legacy/builder/constants"
-	"github.com/OS-Q/S04A/legacy/builder/phases"
-	"github.com/OS-Q/S04A/legacy/builder/types"
-	"github.com/OS-Q/S04A/legacy/builder/utils"
+	bldr "github.com/arduino/arduino-cli/arduino/builder"
+	"github.com/arduino/arduino-cli/legacy/builder/builder_utils"
+	"github.com/arduino/arduino-cli/legacy/builder/constants"
+	"github.com/arduino/arduino-cli/legacy/builder/phases"
+	"github.com/arduino/arduino-cli/legacy/builder/types"
+	"github.com/arduino/arduino-cli/legacy/builder/utils"
 	"github.com/pkg/errors"
 )
 

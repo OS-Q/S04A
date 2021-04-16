@@ -19,8 +19,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/OS-Q/S04A/httpclient"
-	rpc "github.com/OS-Q/S04A/rpc/commands"
+	"github.com/arduino/arduino-cli/httpclient"
+	rpc "github.com/arduino/arduino-cli/rpc/commands"
 	"go.bug.st/downloader/v2"
 )
 

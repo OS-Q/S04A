@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/OS-Q/S04A/commands/lib"
-	rpc "github.com/OS-Q/S04A/rpc/commands"
+	"github.com/arduino/arduino-cli/commands/lib"
+	rpc "github.com/arduino/arduino-cli/rpc/commands"
 )
 
 // LibraryReferenceArg is a command line argument that reference a library.

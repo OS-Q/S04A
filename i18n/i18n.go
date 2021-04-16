@@ -15,7 +15,7 @@
 
 package i18n
 
-import "github.com/OS-Q/S04A/configuration"
+import "github.com/arduino/arduino-cli/configuration"
 
 // Init initializes the i18n module, setting the locale according to this order of preference:
 // 1. Configuration set in arduino-cli.yaml

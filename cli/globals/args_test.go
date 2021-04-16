@@ -18,7 +18,7 @@ package globals_test
 import (
 	"testing"
 
-	"github.com/OS-Q/S04A/cli/globals"
+	"github.com/arduino/arduino-cli/cli/globals"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

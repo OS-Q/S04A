@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/OS-Q/S04A/legacy/builder/builder_utils"
-	"github.com/OS-Q/S04A/legacy/builder/types"
+	"github.com/arduino/arduino-cli/legacy/builder/builder_utils"
+	"github.com/arduino/arduino-cli/legacy/builder/types"
 	paths "github.com/arduino/go-paths-helper"
 	"github.com/stretchr/testify/require"
 )

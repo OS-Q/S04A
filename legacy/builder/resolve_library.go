@@ -18,9 +18,9 @@ package builder
 import (
 	"fmt"
 
-	"github.com/OS-Q/S04A/arduino/libraries"
-	"github.com/OS-Q/S04A/legacy/builder/constants"
-	"github.com/OS-Q/S04A/legacy/builder/types"
+	"github.com/arduino/arduino-cli/arduino/libraries"
+	"github.com/arduino/arduino-cli/legacy/builder/constants"
+	"github.com/arduino/arduino-cli/legacy/builder/types"
 )
 
 func ResolveLibrary(ctx *types.Context, header string) *libraries.Library {
@@ -54,7 +54,7 @@ func ResolveLibrary(ctx *types.Context, header string) *libraries.Library {
 		// ./libraries1/Lib/lib1.h and ./libraries2/Lib/lib2.h
 		// Without this check the library resolution would be stuck in a loop.
 		// This behaviour has been reported in this issue:
-		// https://github.com/OS-Q/S04A/issues/973
+		// https://github.com/arduino/arduino-cli/issues/973
 		if selected == alreadyImported {
 			selected = alreadyImported
 		}

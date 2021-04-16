@@ -43,7 +43,7 @@ func NewProcess(args ...string) (*Process, error) {
 
 	// This is required because some tools detects if the program is running
 	// from terminal by looking at the stdin/out bindings.
-	// https://github.com/OS-Q/S04A/issues/844
+	// https://github.com/arduino/arduino-cli/issues/844
 	p.cmd.Stdin = NullReader
 	return p, nil
 }

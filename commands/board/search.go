@@ -21,9 +21,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/OS-Q/S04A/arduino/utils"
-	"github.com/OS-Q/S04A/commands"
-	rpc "github.com/OS-Q/S04A/rpc/commands"
+	"github.com/arduino/arduino-cli/arduino/utils"
+	"github.com/arduino/arduino-cli/commands"
+	rpc "github.com/arduino/arduino-cli/rpc/commands"
 )
 
 // Search returns all boards that match the search arg.

@@ -21,8 +21,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/OS-Q/S04A/configuration"
-	rpc "github.com/OS-Q/S04A/rpc/settings"
+	"github.com/arduino/arduino-cli/configuration"
+	rpc "github.com/arduino/arduino-cli/rpc/settings"
 	"github.com/arduino/go-paths-helper"
 	"github.com/stretchr/testify/require"
 )

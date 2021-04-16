@@ -19,9 +19,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/OS-Q/S04A/arduino/builder"
-	"github.com/OS-Q/S04A/arduino/globals"
-	"github.com/OS-Q/S04A/arduino/sketch"
+	"github.com/arduino/arduino-cli/arduino/builder"
+	"github.com/arduino/arduino-cli/arduino/globals"
+	"github.com/arduino/arduino-cli/arduino/sketch"
 	"github.com/arduino/go-paths-helper"
 	"github.com/pkg/errors"
 )

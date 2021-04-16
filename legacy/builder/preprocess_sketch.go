@@ -22,10 +22,10 @@ import (
 	"runtime"
 	"strings"
 
-	bldr "github.com/OS-Q/S04A/arduino/builder"
-	"github.com/OS-Q/S04A/legacy/builder/constants"
-	"github.com/OS-Q/S04A/legacy/builder/types"
-	"github.com/OS-Q/S04A/legacy/builder/utils"
+	bldr "github.com/arduino/arduino-cli/arduino/builder"
+	"github.com/arduino/arduino-cli/legacy/builder/constants"
+	"github.com/arduino/arduino-cli/legacy/builder/types"
+	"github.com/arduino/arduino-cli/legacy/builder/utils"
 	properties "github.com/arduino/go-properties-orderedmap"
 	"github.com/pkg/errors"
 )

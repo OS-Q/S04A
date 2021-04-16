@@ -22,7 +22,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/OS-Q/S04A/arduino/globals"
+	"github.com/arduino/arduino-cli/arduino/globals"
 	"github.com/arduino/go-paths-helper"
 	"github.com/pkg/errors"
 )
@@ -151,7 +151,7 @@ func New(sketchFolderPath, mainFilePath, buildPath string, allFilesPaths []strin
 //    mysketch/MySketch.ino
 //
 // This is mostly necessary to avoid errors on Mac OS X.
-// For more info see: https://github.com/OS-Q/S04A/issues/1174
+// For more info see: https://github.com/arduino/arduino-cli/issues/1174
 func CheckSketchCasing(sketchFolder string) error {
 	sketchPath := paths.New(sketchFolder)
 	files, err := sketchPath.ReadDir()

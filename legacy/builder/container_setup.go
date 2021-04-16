@@ -18,10 +18,10 @@ package builder
 import (
 	"fmt"
 
-	bldr "github.com/OS-Q/S04A/arduino/builder"
-	sk "github.com/OS-Q/S04A/arduino/sketch"
-	"github.com/OS-Q/S04A/legacy/builder/builder_utils"
-	"github.com/OS-Q/S04A/legacy/builder/types"
+	bldr "github.com/arduino/arduino-cli/arduino/builder"
+	sk "github.com/arduino/arduino-cli/arduino/sketch"
+	"github.com/arduino/arduino-cli/legacy/builder/builder_utils"
+	"github.com/arduino/arduino-cli/legacy/builder/types"
 	"github.com/arduino/go-paths-helper"
 	"github.com/pkg/errors"
 )

@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/OS-Q/S04A/arduino/builder"
+	"github.com/arduino/arduino-cli/arduino/builder"
 	"github.com/arduino/go-paths-helper"
 	"github.com/stretchr/testify/assert"
 )

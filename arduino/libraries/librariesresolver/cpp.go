@@ -20,9 +20,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/OS-Q/S04A/arduino/libraries"
-	"github.com/OS-Q/S04A/arduino/libraries/librariesmanager"
-	"github.com/OS-Q/S04A/arduino/utils"
+	"github.com/arduino/arduino-cli/arduino/libraries"
+	"github.com/arduino/arduino-cli/arduino/libraries/librariesmanager"
+	"github.com/arduino/arduino-cli/arduino/utils"
 	"github.com/schollz/closestmatch"
 	"github.com/sirupsen/logrus"
 )

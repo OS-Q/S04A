@@ -19,9 +19,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/OS-Q/S04A/cli/errorcodes"
-	"github.com/OS-Q/S04A/cli/feedback"
-	"github.com/OS-Q/S04A/configuration"
+	"github.com/arduino/arduino-cli/cli/errorcodes"
+	"github.com/arduino/arduino-cli/cli/feedback"
+	"github.com/arduino/arduino-cli/configuration"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

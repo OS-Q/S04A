@@ -84,7 +84,7 @@ tasks:
         --build-cmd "{{ .BUILD_COMMAND }}" \
         -p "{{ .BUILD_PLATFORM }}"
 
-        tar cz -C {{ .PLATFORM_DIR }} {{ .PROJECT_NAME }}   -f {{ .PACKAGE_NAME }}
+        tar cz -C {{ .PLATFORM_DIR }} {{ .PROJECT_NAME }} -C ../.. LICENSE.txt  -f {{ .PACKAGE_NAME }}
         sha256sum {{ .PACKAGE_NAME }} >> {{ .CHECKSUM_FILE }}
 
     vars:
@@ -106,7 +106,7 @@ tasks:
         --build-cmd "{{ .BUILD_COMMAND }}" \
         -p "{{ .BUILD_PLATFORM }}"
 
-        tar cz -C {{ .PLATFORM_DIR }} {{ .PROJECT_NAME }}   -f {{ .PACKAGE_NAME }}
+        tar cz -C {{ .PLATFORM_DIR }} {{ .PROJECT_NAME }} -C ../.. LICENSE.txt  -f {{ .PACKAGE_NAME }}
         sha256sum {{ .PACKAGE_NAME }} >> {{ .CHECKSUM_FILE }}
 
     vars:
@@ -128,7 +128,7 @@ tasks:
         --build-cmd "{{ .BUILD_COMMAND }}" \
         -p "{{ .BUILD_PLATFORM }}"
 
-        tar cz -C {{ .PLATFORM_DIR }} {{ .PROJECT_NAME }}   -f {{ .PACKAGE_NAME }}
+        tar cz -C {{ .PLATFORM_DIR }} {{ .PROJECT_NAME }} -C ../.. LICENSE.txt  -f {{ .PACKAGE_NAME }}
         sha256sum {{ .PACKAGE_NAME }} >> {{ .CHECKSUM_FILE }}
 
     vars:
@@ -150,7 +150,7 @@ tasks:
         --build-cmd "{{ .BUILD_COMMAND }}" \
         -p "{{ .BUILD_PLATFORM }}"
 
-        tar cz -C {{ .PLATFORM_DIR }} {{ .PROJECT_NAME }}   -f {{ .PACKAGE_NAME }}
+        tar cz -C {{ .PLATFORM_DIR }} {{ .PROJECT_NAME }} -C ../.. LICENSE.txt  -f {{ .PACKAGE_NAME }}
         sha256sum {{ .PACKAGE_NAME }} >> {{ .CHECKSUM_FILE }}
 
     vars:
@@ -172,7 +172,7 @@ tasks:
         --build-cmd "{{ .BUILD_COMMAND }}" \
         -p "{{ .BUILD_PLATFORM }}"
 
-        tar cz -C {{ .PLATFORM_DIR }} {{ .PROJECT_NAME }}   -f {{ .PACKAGE_NAME }}
+        tar cz -C {{ .PLATFORM_DIR }} {{ .PROJECT_NAME }} -C ../.. LICENSE.txt  -f {{ .PACKAGE_NAME }}
         sha256sum {{ .PACKAGE_NAME }} >> {{ .CHECKSUM_FILE }}
 
     vars:
@@ -194,7 +194,7 @@ tasks:
         --build-cmd "{{ .BUILD_COMMAND }}" \
         -p "{{ .BUILD_PLATFORM }}"
 
-        tar cz -C {{ .PLATFORM_DIR }} {{ .PROJECT_NAME }}   -f {{ .PACKAGE_NAME }}
+        tar cz -C {{ .PLATFORM_DIR }} {{ .PROJECT_NAME }} -C ../.. LICENSE.txt  -f {{ .PACKAGE_NAME }}
         sha256sum {{ .PACKAGE_NAME }} >> {{ .CHECKSUM_FILE }}
 
     vars:

@@ -19,9 +19,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/OS-Q/S04A/arduino/cores"
-	"github.com/OS-Q/S04A/arduino/resources"
-	"github.com/OS-Q/S04A/arduino/security"
+	"github.com/arduino/arduino-cli/arduino/cores"
+	"github.com/arduino/arduino-cli/arduino/resources"
+	"github.com/arduino/arduino-cli/arduino/security"
 	"github.com/arduino/go-paths-helper"
 	"github.com/sirupsen/logrus"
 	semver "go.bug.st/relaxed-semver"

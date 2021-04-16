@@ -16,8 +16,8 @@
 package builder
 
 import (
-	"github.com/OS-Q/S04A/legacy/builder/ctags"
-	"github.com/OS-Q/S04A/legacy/builder/types"
+	"github.com/arduino/arduino-cli/legacy/builder/ctags"
+	"github.com/arduino/arduino-cli/legacy/builder/types"
 )
 
 type AddMissingBuildPropertiesFromParentPlatformTxtFiles struct{}

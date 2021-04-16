@@ -198,7 +198,7 @@ def test_compile_without_precompiled_libraries(run_command, data_dir):
 
     assert run_command(f"core install arduino:samd@1.8.7 --additional-urls={url}")
     assert run_command(f"core install adafruit:samd@1.6.4 --additional-urls={url}")
-    # should work on adafruit too after https://github.com/OS-Q/S04A/pull/1134
+    # should work on adafruit too after https://github.com/arduino/arduino-cli/pull/1134
     assert run_command(f"compile -b adafruit:samd:adafruit_feather_m4 {sketch_path}")
 
     # Non-precompiled version of Arduino_TensorflowLite
@@ -568,7 +568,7 @@ def test_compile_with_custom_libraries(run_command, copy_sketch):
     first_lib = Path(sketch_path, "libraries1")
     second_lib = Path(sketch_path, "libraries2")
     # This compile command has been taken from this issue:
-    # https://github.com/OS-Q/S04A/issues/973
+    # https://github.com/arduino/arduino-cli/issues/973
     assert run_command(f"compile --libraries {first_lib},{second_lib} -b {fqbn} {sketch_path}")
 
 

@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/OS-Q/S04A/arduino/libraries/librariesmanager"
-	rpc "github.com/OS-Q/S04A/rpc/commands"
+	"github.com/arduino/arduino-cli/arduino/libraries/librariesmanager"
+	rpc "github.com/arduino/arduino-cli/rpc/commands"
 	paths "github.com/arduino/go-paths-helper"
 	"github.com/stretchr/testify/assert"
 )

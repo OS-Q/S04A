@@ -21,8 +21,8 @@ import (
 	"net/url"
 	"runtime"
 
-	"github.com/OS-Q/S04A/cli/globals"
-	"github.com/OS-Q/S04A/configuration"
+	"github.com/arduino/arduino-cli/cli/globals"
+	"github.com/arduino/arduino-cli/configuration"
 )
 
 // Config is the configuration of the http client

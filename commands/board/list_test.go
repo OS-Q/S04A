@@ -21,8 +21,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/OS-Q/S04A/commands"
-	"github.com/OS-Q/S04A/configuration"
+	"github.com/arduino/arduino-cli/commands"
+	"github.com/arduino/arduino-cli/configuration"
 	"github.com/arduino/go-properties-orderedmap"
 	"github.com/stretchr/testify/require"
 )

@@ -27,3 +27,8 @@ venv
 /docsgen/arduino-cli
 /docs/rpc/*.md
 /docs/commands/*.md
+LICENSE*
+*.png
+*.jpg
+*.txt
+README*

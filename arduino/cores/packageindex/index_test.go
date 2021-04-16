@@ -18,8 +18,8 @@ package packageindex
 import (
 	"testing"
 
-	"github.com/OS-Q/S04A/arduino/cores"
-	"github.com/OS-Q/S04A/arduino/resources"
+	"github.com/arduino/arduino-cli/arduino/cores"
+	"github.com/arduino/arduino-cli/arduino/resources"
 	"github.com/arduino/go-paths-helper"
 	"github.com/stretchr/testify/require"
 	semver "go.bug.st/relaxed-semver"

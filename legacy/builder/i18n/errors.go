@@ -3,7 +3,7 @@ package i18n
 import (
 	"os"
 
-	"github.com/OS-Q/S04A/legacy/builder/constants"
+	"github.com/arduino/arduino-cli/legacy/builder/constants"
 	"github.com/pkg/errors"
 )
 

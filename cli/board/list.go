@@ -21,13 +21,13 @@ import (
 	"sort"
 	"time"
 
-	"github.com/OS-Q/S04A/arduino/cores"
-	"github.com/OS-Q/S04A/cli/errorcodes"
-	"github.com/OS-Q/S04A/cli/feedback"
-	"github.com/OS-Q/S04A/cli/instance"
-	"github.com/OS-Q/S04A/commands/board"
-	rpc "github.com/OS-Q/S04A/rpc/commands"
-	"github.com/OS-Q/S04A/table"
+	"github.com/arduino/arduino-cli/arduino/cores"
+	"github.com/arduino/arduino-cli/cli/errorcodes"
+	"github.com/arduino/arduino-cli/cli/feedback"
+	"github.com/arduino/arduino-cli/cli/instance"
+	"github.com/arduino/arduino-cli/commands/board"
+	rpc "github.com/arduino/arduino-cli/rpc/commands"
+	"github.com/arduino/arduino-cli/table"
 	"github.com/spf13/cobra"
 )
 
