@@ -33,3 +33,4 @@ LICENSE*
 *.txt
 README*
 !requirements_docs.txt
+*.yaml
