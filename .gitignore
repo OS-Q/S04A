@@ -1,36 +1,3 @@
-/debug
-/arduino-cli*
-/main
-/.vscode/
-/cmd/formatter/debug.test
-/arduino-cli.yaml
-/wiki
-.idea
-coverage_*.txt
-__pycache__
-venv
-.pytest_cache
-/dist
-/.pytest-tmp-dir
-
-# gRPC client example folder
-/client_example/client_example
-/client_example/**/*.bin
-/client_example/**/*.elf
-
-# Misc.
-.DS_Store
-
-# Mkdocs
-/site/
-/public/
-/docsgen/arduino-cli
-/docs/rpc/*.md
-/docs/commands/*.md
-LICENSE*
-*.png
-*.jpg
-*.txt
-README*
-!requirements_docs.txt
-*.yaml
+*.pyc
+*.pio/
+*.vscode/
