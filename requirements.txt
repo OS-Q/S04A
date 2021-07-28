@@ -1,0 +1,7 @@
+pylint
+mypy
+flake8
+platformio
+requests
+pyyaml
+docker
