@@ -1,0 +1,35 @@
+{
+    "type":"CPU",
+    "name":"2K1000",
+    "title": "loongson 2K1000 CPU",
+    "description":"loongson CPU",
+    "Core": {
+        "CoreNum": 2,
+        "Core":"LoongArch",
+        "Fmax":1000,
+        "DMIPS": 4000,
+        "CoreMark": 8000
+    },
+    "manufacturer": {
+        "vendor":"loongson",
+        "homepage":"https://www.loongson.cn"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/2K1000.git"
+    },
+    "version":"1.0.0",
+    "series":["2K1000"],
+    "package":["FC-BGA"],
+    "peripheral": ["MIPI","ETH","ISP","SDIO","UART","SPI","IIC"],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
+    },
+    "keywords": [
+        "LoongArch",
+        "loongson",
+        "MIPI","ETH","ISP","ADC","I2C","RTC","SPI","UART",
+        "3.6V","1.8V"
+    ]
+}
